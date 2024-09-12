@@ -1,5 +1,4 @@
 // pages/api/student.ts
-"use server"
 import { NextApiRequest, NextApiResponse } from 'next';
 import { db } from '@vercel/postgres';
 
