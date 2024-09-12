@@ -23,7 +23,7 @@ export default async function handler(
   request: NextApiRequest,
   response: NextApiResponse
 ) {
-  const { id } = request.query as { id?: string }; // Extract the ID from query parameters
+  const { id } = request.query as { id?: string }; 
   const client = await db.connect();
 
   try {
